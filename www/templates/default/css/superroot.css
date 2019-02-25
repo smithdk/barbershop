@@ -1,0 +1,225 @@
+/*progect name: BARBERSHOP*/
+body,html{
+   height: 100%;
+   font-family: "Arial";
+   overflow:  auto;
+   background: maroon;
+   border-color: yellow;
+   color: yellow;
+   border: none;
+}
+#header_block{
+ height: 7%;
+ /*background: blue;*/
+}
+#left_top_block{
+    
+  float: left;
+  width: 200px;
+  height: 100%;
+  border-right: 1px solid;
+  text-align: center;
+  cursor: pointer; 
+  /*background: red;*/
+}
+#left_top_block:hover{
+    background-color:  #990000;
+}
+#left_top_block p{
+    padding-top: 6%;
+    /*color: blue;*/
+}
+#right_top_block{
+  margin-left: 200px;
+  height: 100%;
+  background-image: url('/images/main/barbershop_small_light.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  /*background: rosybrown;*/
+}
+#left_block{
+  float: left;
+  height: 90%;
+  width: 200px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  /*background: greenyellow;*/
+}
+#right_block{
+   margin-left: 200px;
+   height: 90%;
+   padding: 10px;
+   border-top: 1px solid;
+   font-size: 12pt;
+   /*background: gray;*/
+}
+
+/*----Menu----*/
+#main_menu{
+ list-style-type: none;   
+}
+#main_menu a{
+  text-decoration: none;
+  display: block;
+  padding: 10px 0px 10px 20px ;
+  border-bottom: 1px solid yellow;  
+  color: yellow;
+}
+#objects:hover{
+  background-color:  #990000;   
+}
+#privelegy_sub_menu
+{
+ display: none;  
+ list-style-type: none; 
+}
+#privelegy_sub_menu a{
+  text-decoration: none;
+  display: block;
+  padding: 10px 0px 10px 20px ;
+  border-bottom: 1px solid yellow;
+  color: black;
+}
+#root_item{
+  background-color:#79a979;  
+}
+#root_item:hover{
+  background-color: palegreen;  
+}
+#admin_item{
+    background-color: #999999;  
+}
+#admin_item:hover{
+    background-color: #cccccc;  
+}
+#user_item{
+  background-color:  cornflowerblue;  
+}
+#user_item:hover{
+    background-color:  #bdcfea;  
+}
+/*----End Menu----*/
+.select_object{
+   padding: 10px;
+   border: 1px solid;
+}
+.select_object p{
+    color: green;
+    padding:-20px;
+}
+.legend{
+    margin-left: 50px;
+    color: green;      
+}
+.fieldset{
+    border-color: yellow;
+    padding: 0.5%;
+}
+#object_fields{
+    display: none;
+}
+#objects_menu , #users_menu{
+   font-size: 12pt;
+   width: 210px;
+}
+#load_img{
+   font-size: 13pt;
+   width: 100%;  
+}
+#create_button,#user_create_button{
+   font-size: 13pt;
+   width: 150px;  
+}
+#cancel_button,#user_cancel_button{
+   display: none; /*inline;*/
+   font-size: 13pt;
+   width: 150px;  
+}
+.caption_in_table{
+    /*border: solid 1px green;*/
+    text-align: right;
+}
+.ne_caption_in_table_l{
+    /*border: solid 1px green;*/
+    text-align: right;
+    color:  #79a979;
+}
+.ne_caption_in_table_r{
+    /*border: solid 1px green;*/
+    text-align: left;
+    color: #999999;
+}
+.inputs_in_table{
+    /*border: solid 1px green;*/
+    text-align: left;
+    width: 100px;
+}
+#name_rus,#db_name,#db_login,#pwd1,#pwd2,#location,#image_location{
+    font-size: 12pt;
+    width: 170px;
+}
+#obj_image{
+    height: 150px;
+    width: 100%;
+}
+#comments{
+    text-align: center;
+}
+#ta_comments{
+    width: 100%;
+    height: 100px;
+    /*border: solid 1px green;*/
+}
+#main_user_fields,#detail_user_fields,#reference_fs{
+  display: none;   
+}
+#user_login,#user_pass,#user_email
+{
+   font-size: 12pt; 
+   width: 200px;
+}
+.edit_field{
+ font-size: 12pt; 
+ width: 200px;   
+}
+.edit_field1{
+ font-size: 12pt; 
+ width: 50px; 
+}
+#is_work{
+  transform:scale(1.5);
+  margin-left: 3px;
+} 
+#user_priv_menu{
+   font-size: 12pt; 
+   width: 140px;
+}
+.cl_table{
+  border-color: green;  
+}
+#user_obj_menu{
+   /*display: none;*/
+   font-size: 12pt; 
+   width: 200px;
+}
+#user_obj_caption{
+   /*display: none;*/
+}
+#usr_image{
+  width: 150px;
+  height: 200px;  
+}
+#user_cooments{
+  text-align: center;  
+}
+#us_comments{
+  position:relative;
+/*bottom:-20px;*/
+width:auto;
+height:175px;	
+width: 500px; 
+}
+#load_usr_img{
+ width: 100%;   
+}

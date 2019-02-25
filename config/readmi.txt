@@ -1,0 +1,66 @@
+//progect name: BARBERSHOP1
+
+  Перед первым запуском BABERSHOP необходимо запустить скрипт babershop.sql 
+  командой: mysql -uroot [-prootpassword] < barbershop.sql
+  В резултате создастся пользователь с login name: barbershop password: barbershop 
+  Запуск скрипта производится от пользователя с правами на создание новых пользователей и баз данных
+
+
+
+Содержимое файла barbershop.sql:
+
+CREATE USER 'barbershop'@'%' IDENTIFIED by 'barbershop';
+GRANT ALL PRIVILEGES ON *.* TO 'barbershop'@'%' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0; 
+
+CREATE USER 'barbershop'@'localhost' IDENTIFIED by 'barbershop';
+GRANT ALL PRIVILEGES ON *.* TO 'barbershop'@'localhost' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0; 
+
+
+При изменении объекта:
+Если поля ввода пароля пустые, то пароль не меняется
+
+Привелегии{superroot,root,admin,emploee}
+
+https://www.youtube.com/watch?v=nGoHO3KViqg -про табы
+/*--start -- Стили для tab */
+.main{
+  float: left;   
+}
+.wrapper{
+}
+.active { 
+  /*color: #01839a;*/
+  color: #0066cc;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+}
+.tabs{
+  margin-left: 0em;  
+}
+.tab{
+  
+  cursor: pointer;
+  /*color: #0066cc*/
+  /*border: 1px solid #ddd; */
+  border: 1px solid #999999;
+  border-radius: 3px 3px 0 0;
+  font-size: 14pt;
+  padding: .5em 1em;
+  display: inline-block;
+  margin-bottom: -1px;
+  position: relative;
+  z-index: 2;
+  background: #eee;
+}
+.tab_item {
+  /*border: 1px solid #ddd;*/
+  border: 1px solid #999999;
+  border-radius: 3px;
+  float: left;
+  /*width: 90%;
+  padding: 0 5em;*/
+}
+/*--end -- Стили для tab */
+
+Бэкап БД
+

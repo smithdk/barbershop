@@ -1,0 +1,31 @@
+/*progect name: BARBERSHOP1*/
+.logo_img{   
+ position:relative;
+ text-align: center;
+ width: 100%;
+}
+.autorezationBox{
+    position:relative;
+    text-align: center;
+    height: 70%;
+}
+#loginButton{
+    font-size: 18pt;
+    margin-top: 10px;
+    width: 250px;
+}
+#startTable{
+   width: 100%;
+   font-size: 16pt;
+}
+#login,#pwd{
+    font-size: 16pt;
+    width: 200px;
+}
+.l_align{
+    text-align: left;
+}
+.r_align{
+    text-align: right;
+    width: 50%;
+}

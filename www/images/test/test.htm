@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>test</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <style type="text/css">
+
+   </style>
+   <script type= "text/javascript">
+    window.onload = function(){
+	set_params();
+  }
+  	function set_params()
+	{
+	   var json_str='{"name":"SPS-8-1_DK","socket_name":["DFL-800","SHS-1","SHS-2","DES-1500-28/ME","DNS-320","DNS-350","DVG-7062","DES-1008D"],"socket_descr":["Маршрутизатор","Сервер Linux","Сервер Windows","Основной коммутатор","NAS 1 (Volume_1)","NAS 2 (Volume_2)","VoIP Шлюз","Входной коммутатор"],"relay_state":[1,0,0,1,0,1,1,0]}'
+	  //var json_str='{"name":"SPS-8-1_DK","socket_name":["DFL-800","SHS-1","SHS-2","DES-1500-28/ME","DNS-320","DNS-350","DVG-7062","DES-1008D"],"socket_descr":["Маршрутизатор","Сервер Linux",Сервер Windows","Основной коммутатор","NAS 1 (Volume_1)","NAS 2 (Volume_2)","VoIP Шлюз","Входной коммутатор"],"relay_state":[1,0,0,1,0,1,1,0]}';
+	  //var json_str=in_str.replace("}{",",");
+	  json_str=json_str.trim();
+	  console.log(json_str);
+	  for (var x=0;x< 10 ;x++){
+	   console.log(json_str[x]+"-["+json_str.charCodeAt(x)+"]");
+	   //console.log(char(json_str[x]));
+	  }
+	  var params=JSON.parse(json_str);
+	  
+	  //console.log(params);
+	}	
+  </script>
+ </head>
+  <body>
+  
+  </body>
+</html>

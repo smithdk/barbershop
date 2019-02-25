@@ -1,0 +1,21 @@
+Создать новую таблицу с такой же структурой
+
+CREATE TABLE operations_vv_carmen LIKE operations_vv
+
+
+Скопировать данные из одной таблицы в другую
+
+INSERT INTO `db`.`table_to`
+SELECT *
+FROM `db`.`table_from` ;
+
+INSERT INTO operations_vv_shagane
+SELECT NULL, `obj_id`,`lavel`,`section`,`variable`,`value`,`comment`,`create_date`,`creator`,`last_mod_date`,`last_modifer`
+FROM operations_vv_carmen
+
+Изменить значение поля
+
+UPDATE operations_vv_shagane SET obj_id = 1
+
+Переиментовать таблицу
+RENAME TABLE старое_имя_таблицы TO новое_имя_таблицы;

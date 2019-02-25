@@ -1,0 +1,550 @@
+/*progect name: BARBERSHOP1*/
+body,html{
+   height: 100%;
+   font-family: "Arial";
+   overflow:  auto;
+   /*background:  #bdcfea;*/
+   background: white;
+   border-color: black;
+   color: black;
+   border: none;
+}
+#header_block{
+ height: 7%;
+ /*background: blue;*/
+}
+#left_top_block{ 
+  float: left;
+  width: 200px;
+  height: 100%;
+  border-right: 1px solid;
+  text-align: center;
+  /*cursor: pointer;*/ 
+  /*background: red;*/
+}
+#left_top_block:hover{
+    /*background-color:  #990000;*/
+}
+#left_top_block p{
+    padding-top: 6%;
+    /*color: blue;*/
+}
+#right_top_block{
+  margin-left: 200px;
+  height: 100%;
+  background-image: url('/images/main/barbershop_small_dark.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  /*background: rosybrown;*/
+}
+#left_block{
+  float: left;
+  height: 90%;
+  width: 200px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  /*background: greenyellow;*/
+}
+#right_block{
+   margin-left: 200px;
+   height: 90%;
+  /* padding: 10px;*/
+   border-top: 1px solid;
+   font-size: 12pt;
+   text-align: center;
+   /*background: gray;*/
+}
+/*----Menu----*/
+#main_menu{
+ list-style-type: none;   
+}
+#main_menu a{
+  text-decoration: none;
+  display: block;
+  padding: 10px 0px 10px 20px ;
+  /*border-bottom: 1px solid yellow;*/
+  border-bottom: 1px solid black;
+  color: black;
+}
+#objects:hover{
+  background-color: #bdcfea; /*#990000;*/   
+}
+.emp_list{
+  list-style-type: none;
+  font-size: 17pt;
+}
+#emp_div{
+   text-align: left;
+   margin-left: 40%;
+}
+#warning_h1{
+   color: red; 
+}
+#save_button{
+  margin-top: 5px;
+  width: 30%;
+  height: 35px; 
+  font-size: 14pt;
+}
+#div_right_block_top{
+  width: 100%;
+  height: 50%;
+  background-color: brown;
+}
+#div_right_block_bottom{
+  width: 100%;
+  height: 50%;
+  background-color: burlywood;
+}
+/*---start---Табы*/
+.wrapper{
+   /*background-color: #f0ead8;*/
+   text-align: left;
+   height: 99%; 
+   margin: 5px;
+}
+.wrapper .active {
+  /*color: #01839a;*/
+  color:  #0066cc;
+  background-color: #fff;
+  height: 100%;
+  border-bottom: 1px solid #fff;
+  
+}
+.tabs{
+ /*background-color:  #bdcfea;*/
+ margin-left: 5px;
+ /*height: 37px;*/
+}
+.tab{
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 3px 3px 0 0 ;
+  padding: 0.3em 1em;
+  margin-top: -.6em;
+  margin-bottom: -1px;
+  float: left;
+  position: relative;
+  z-index: 2;
+  background-color: #eee;
+  /*border-bottom: 1px solid #fff;*/
+  
+  /*display: inline-block;*/
+}
+.tab_content{
+ /*background-color: #79a979;*/
+ height: 96%;
+ /*padding-bottom: 3%;*/
+}
+.tab_item{
+  /*background-color: #79a979;*/   
+  height: 100%;  
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  
+}
+.tab_item_top{
+  /*display: block;  */
+  /*background-color:  #800;*/
+  height: 50%;  
+  width: 100%;
+  overflow:  auto;
+  /*display: table;*/
+}
+.tab_item_bottom{
+  /*background-color:  #f0ead8;*/
+  height: 50%;  
+  overflow: auto;
+}
+/*---end---Табы*/
+#image_salary_div{
+ /* background-color:  #bdcfea;*/
+  width: 150px; 
+  height: 100%;
+  float: left;
+  text-align: center;
+  overflow:  auto;
+   /*display: table-column;*/
+}
+#emp_img{
+  width: 100%;
+  height: 200px;
+}
+#image_salary_table{
+    margin: 4%;
+}
+.left_col{
+  text-align: right;
+  font-weight: bold;
+  color: maroon;
+}
+.light_caption{
+  text-align: left;
+  font-weight: bold;
+  color: red;  
+}
+#emp_fio{
+   /*background-color:blue;*/
+   /*width: 100%;*/
+   height: 10%;
+   /*margin-left: 151px;*/
+   text-align: center;
+   color: maroon;
+   font-size: 18pt;
+   font-weight: bold;
+   overflow: auto;
+   /*display: table-row;*/
+}
+#new_client_div{
+ text-align: left;
+ /*background-color:  #79a979;*/
+ height: 100%;
+ margin-left: 151px;
+ /*display: table;*/
+}
+#new_client_fs, #summary_fs{
+  height: 98%; 
+ 
+/* margin-left: 10px;
+ margin-right: 5px;
+ padding: 5px;*/
+ border-radius:3px;
+ border: solid 2px;
+ border-color:#0066cc; 
+ overflow: auto;
+}
+#div_fs{
+  /*background-color: green;*/
+  height: 90%;
+  /*margin: 30px;*/
+}
+#div_fs_top{
+ color: #0066cc;   
+ height: 30%;
+ text-align: center;
+}
+#div_fs_middle{
+ height: 45%;
+ overflow-y: auto;
+  border: 1px solid #999999;
+}
+#div_fs_bottom{    
+ /*height: 5%*/; 
+ text-align: center;    
+}
+#summary_fs{
+ height: 98%; 
+}
+.save_op_button{
+ margin-top: 5px;
+ font-size: 14pt;
+ margin: 5px;
+ width: 50%;  
+}
+#new_client_table_td1,#new_client_table_td2,#new_client_table_td3,
+#new_client_table_td4,#new_client_table_td5 {
+ border: 1px solid #999999;
+}
+#new_client_table_td1{
+ width: 3%;
+ text-align: left;
+ padding-left: 10px;
+}
+#new_client_table_td2{
+ width: 4%;   
+ text-align: left;
+ padding-left: 10px;
+}
+#new_client_table_td3{
+ text-align: left;
+ padding-left: 10px;
+ width: 50%;   
+}
+#new_client_table_td4{
+ text-align: left;
+ padding-left: 10px;   
+ width: 5%;   
+}
+#new_client_table_td5{
+ width: 5%;
+ padding-left: 10px;
+}
+#new_client_table_th1,#new_client_table_th2,#new_client_table_th3,
+#new_client_table_th4,#new_client_table_th5 {
+ border: 1px solid #999999;
+}
+#new_client_table_th1{
+ width: 3%;
+ text-align: left;
+ padding-left: 10px;
+ border: none;  
+}
+#new_client_table_th2{
+ width: 4%;   
+ text-align: left;
+ padding-left: 10px;
+ border: none;  
+}
+#new_client_table_th3{
+ text-align: left;
+ padding-left: 10px;
+ width: 50.2%; 
+ border: none;  
+}
+#new_client_table_th4{
+ text-align: left;
+ padding-left: 10px;   
+ width: 5%;   
+ border: none;  
+}
+#new_client_table_th5{
+ width: 5%; 
+ border: none;  
+}
+.new_client_table{
+ border-collapse: collapse;
+ margin-left: -2px; 
+ width: 100%;
+}
+/*
+#summary_table{
+ border-collapse: collapse;
+ margin-left: -2px; 
+ width: 98.5%;
+}
+*/
+#summary_table
+{
+ width: 100%;
+ border-collapse: collapse;
+}
+#summary_table thead
+{
+ display: block;
+ width: 98.5%;
+ overflow: auto;       
+	/*color: #fff;
+	background: #000;*/
+}
+#summary_table tbody
+{
+ display: block;
+ width: 100%;
+ /*height: 200px;*/
+ height: 100%;
+	/*background: pink;*/
+ overflow: auto;
+}
+#new_client_table_trh{  
+ background:  url(/images/main/table_head2.png) repeat-x;
+}
+#div_summary_table{
+  height: 50%;
+  margin: 5px; 
+  /*overflow-y: scroll;*/
+  border: 1px solid #999999;  
+}
+.add_button{
+ font-size: 14pt;
+ margin: 5px;
+ width: 50%;    
+}
+.opreation_sel{
+  margin-top: 5px;
+  font-size: 12pt;
+  /*float: left;*/
+  width: 99%;  
+}
+.legend{
+  margin-left: 10px;  
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #0066cc;
+  /*position:  absolute;*/
+  font-size: 14pt;
+}
+.new_client_table tr:nth-child(2n) {
+    background: #ddd; /* Цвет фона */
+}
+.new_client_table tr:hover{
+  background-color: lightskyblue;
+  cursor: pointer;  
+}
+#summary_table tr:nth-child(2n) {
+    background: #bdcfea; /* Цвет фона */
+}  
+#top_arrea{
+  background-color:  #f0c040;
+  width: 90%;
+  height: 50%;
+}
+#bottom_arrea{
+  /*background-color:  #0066cc;  */
+  width: 90%;
+  height: 50%;
+}
+#left_top_arrea{
+  background-color:  yellowgreen;
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+#top_top_arrea{
+ background-color: #9B410E;
+ margin-left: 15%;
+ height: 90%;
+ width: 85%;
+}
+.new_client_table_td{
+ border: 1px solid #999999;
+ padding-left: 5px;
+}
+.new_client_table_td_hide{
+  display: none; 
+}
+.btn_del_operation{
+  cursor: pointer;  
+}
+/*--start---модальное окно--*/
+#modal_form {
+	width: 300px; 
+	height: 70px; /* Рaзмеры дoлжны быть фиксирoвaны */
+	border-radius: 5px;
+	border: 1px #000 solid;
+	background: #fff;
+	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+	top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+	left: 50%; /* пoлoвинa экрaнa слевa */
+	margin-top: -150px;
+	margin-left: -150px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+	display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+	opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+	z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+	padding: 20px 10px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+#modal_form #modal_close {
+     font-size: 14pt;
+    /*	
+       width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;*/
+}
+/* Пoдлoжкa */
+#overlay {
+	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+	position:fixed; /* всегдa перекрывaет весь сaйт */
+	background-color: #000; /* чернaя */
+        /*background-color: #0066cc;*/
+	opacity:0.8; /* нo немнoгo прoзрaчнa */
+	-moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+	filter:alpha(opacity=80);
+	width:100%; 
+	height:100%; /* рaзмерoм вo весь экрaн */
+	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	left:0;
+	cursor:pointer;
+	display:none; /* в oбычнoм сoстoянии её нет) */
+}
+/*--end---модальное окно--*/
+#sel_count{
+ font-size: 14pt;   
+}
+#emp_id_modal{
+   display: none; 
+}
+.print_button{
+ font-size: 14pt;
+ margin: 5px;
+ float: left;
+ width: 10%;    
+}
+.print_arrea{
+  /*background-color:  #79a979;  */
+  overflow: auto; 
+  height: 93%;
+}
+.print_arrea h4{
+   font-style:  oblique; 
+   font-family: 'Calibri';
+   font-size: 16pt;
+}
+#report_top{
+ height: 7%;
+   /*margin-left: 151px;*/
+ text-align: center;
+ color: maroon;
+ font-size: 18pt;
+ font-weight: bold;
+ overflow: auto;  
+}
+#report_top h4{
+ width: 87%;  
+}
+.font_1{
+ font-family: 'Calibri'; 
+ font-size: 16pt;
+ font-style:  oblique; 
+ 
+}
+.font_2{
+  font-family: 'Calibri';
+  font-size: 16pt;
+  font-style:  oblique; 
+  text-decoration:  underline;
+}
+.print_table{
+  border-collapse:  collapse;
+  margin-left: 20mm;
+  margin-top: 1%; 
+  width: 182mm;
+}
+.print_table_tr{
+   border: 1px solid;
+}
+.print_table_tr_fio{
+   border: 1px solid;
+}
+.print_table_td_fio{
+   border: 1px solid;
+   background-color: #ddd;/* gray;*/
+   text-align: left;
+   padding-left: 3px;
+}
+.print_table_td{
+   border: 1px solid;
+   text-align: left;
+   padding-left: 1mm;
+   padding-right: 1mm;
+}
+.italic_caption{
+  font-weight:  bold;  
+  font-style:  oblique;
+}
+.italic_underline_caption{
+  font-weight:  bold;  
+  font-style:  oblique;
+  /*text-decoration:  underline;*/
+  padding-left: 0;
+}
+#report_summary_table{
+  border-collapse:  collapse;
+  margin-left: 20mm;
+  margin-top: 1%;
+}
+.report_summary_table_td_right{
+  text-align:  left;  
+  padding-left: 2mm;
+}
+.report_summary_table_td_left{
+  text-align: right;  
+  font-style:  oblique;
+}
+.pre{
+  font-family: "Arial";  
+}
